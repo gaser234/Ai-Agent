@@ -1,0 +1,316 @@
+
+     
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        
+
+    * {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      
+      
+    }
+
+
+
+    body {
+      
+      min-height: 100vh;
+      background-image: linear-gradient( to top,  rgb(238, 255, 0), blue);
+      
+    }
+
+    .nav li {
+      
+      display: flex;
+      justify-content: flex-end;
+      gap: 5px;
+      text-align: center;
+      
+      
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: transparent;
+      font-family: 'Poppins' , sans-serif;
+      padding: 0 5px;
+      margin: 0 10px;
+      background-image: linear-gradient( green, gold, red);
+      
+      
+      background-clip: text;
+      font-size: 20px;
+      transition: background-image 0.15s;
+      
+
+
+    }
+
+    .nav a:hover {
+
+      background-image: linear-gradient( gold, green, red);
+      background-clip: text;
+
+      
+
+    }
+
+    .nav p {
+
+      font-family: 'Poppins' , sans-serif;
+      font-size: 30px;
+      background-image: linear-gradient( green, gold, red);
+      background-clip: text;
+      color: transparent;
+      display: flex;
+      justify-content: center;
+      
+
+    }
+
+    .nav button {
+
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-family: 'Poppins' , sans-serif;
+        padding: 5px 5px;
+        margin: 0 10px;
+        background-image: linear-gradient( green, gold, red);
+        border: none;
+        
+        border-radius: 20px;
+        
+        
+        font-size: 20px;
+        transition: color 0.15s , background-image 0.15s;
+
+
+    }
+
+    .nav button:hover {
+      color: orange;
+       background-image: linear-gradient( gold, green, red);
+
+    }
+
+    hr {
+      opacity: 0.3;
+      margin-top: 10px;
+    }
+
+    .hero  {
+      
+      display: flex;
+      justify-content: space-around;
+      
+
+    }
+
+    .hero img {
+      margin-top: 80px;
+      width: 300px;
+      border-radius: 20px;
+    }
+
+    .hero p {
+      
+      margin-top: 200px;
+      font-family: 'Poppins' , sans-serif;
+      font-size: 35px;
+      background-image: linear-gradient( to right , gold, rgb(0, 225, 255));
+      background-clip: text;
+      color: transparent;
+      
+      
+      
+    }
+
+    .hr2 {
+      width: 50%;
+      
+
+      margin: 20px auto;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .features {
+      text-align: center;
+      font-family: 'Poppins' , sans-serif;
+      font-size: 60px;
+      color: transparent;
+      background-image: linear-gradient( to right, red, blue);
+      background-clip: text;
+      margin-bottom: 100px;
+    }
+
+    .card {
+      margin: 40px auto;
+    }
+
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-image: linear-gradient(blue, rgb(0, 255, 34));
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 80px;
+  margin-bottom: 100px;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.blog span {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 0, 76);
+  font-size: 35px;
+  flex-wrap: wrap;
+
+}
+
+.blog p {
+
+  font-family: 'Poppins' , sans-serif;
+      font-size: 20px;
+      
+
+
+}
+
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  transition: transform 0.15s;
+}
+
+.Contact a:hover {
+
+transform: scale(1.5);
+
+
+
+}
+
+
+.p3 {
+
+      text-align: center;
+      font-family: 'Poppins' , sans-serif;
+      font-size: 60px;
+
+}
+
+
+footer {
+  text-align: center;
+}
+
+
+
+.p4 {
+  text-align: center;
+      font-family: 'Poppins' , sans-serif;
+      font-size: 30px;
+  
+}
+
+
+.hr4 {
+  opacity: 0.5;
+}
+
+
+@media (max-width: 1023px) {
+
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero img {
+    width: 200px;
+    margin-top: 30px;
+  }
+
+  .hero p {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    line-height: normal;
+  }
+
+  .nav li {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 16px;
+  }
+
+  .nav button {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .features {
+    font-size: 35px;
+  }
+
+  .p3 {
+    font-size: 35px;
+  }
+
+  .blog span {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .blog p {
+    font-size: 16px;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+}
+
